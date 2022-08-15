@@ -1,0 +1,199 @@
+<!--
+
+    Inspiration:
+    https://codepen.io/coderofdark/pen/BzPrMZ
+    https://www.geeksforgeeks.org/top-10-projects-for-beginners-to-practice-html-and-css-skills/
+
+    1. Navbar
+        - Logo
+        - Shortcut dropdown
+    2. Image 
+        - Caption
+        - Quote
+    3. Timeline
+        - Table 
+    4. Summary column
+        - Portrait photo
+        - Table
+    5. Footer
+        - Quote
+        - Link to Wiki
+
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Page Title</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- Navigation Bar -->
+            <div class="navbar">
+                <div class="left-side">
+                    <div class="logo">
+                        BioBlogs
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="name">
+                        Bill Gates
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="navmenu">
+                        Learn More
+                        <div class="dropdown">
+                            <p><a href="https://www.gatesnotes.com/Climate-and-energy">Climate Change</a></p>
+                            <p><a href="https://www.gatesnotes.com/Inequality-and-race">Fighting Inequality</a></p>
+                            <p><a href="https://www.gatesnotes.com/Pandemic-prevention">Pandemic Prevention</a></p>
+                            <p><a href="https://www.gatesnotes.com/Personal">Personal Life</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portrait and quote -->
+            <div class="intro">
+                <div class="image-wrapper">
+                    <div class = "image">
+                        <img src="Portrait1.jpg" alt="Portrait of Bill Gates, smiling to the camera">
+                    </div>
+                    <div class="image-caption">
+                        <p>Portrait of Bill Gates, taken in 2018</p>
+                    </div>
+                    <div class="quote">
+                        <p>"I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it." -Bill Gates</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline -->
+            <div class="biography">
+                <div class="timeline">
+                    <div class="timeline-title">
+                        <h1>Timeline</h1>
+                    </div>
+                    <div class="timeline-table">
+                        <table>
+                            <tr>
+                                <th>1955</th>
+                                <td>William Henry Gates III is born in Seattle, Washington</td>
+                            </tr>
+                            <tr>
+                                <th>1968</th>
+                                <td>Started programming with good friend Paul Allen</td>
+                            </tr>
+                            <tr>
+                                <th>1973</th>
+                                <td>Enrolled at Harvard University</td>
+                            </tr>
+                            <tr>
+                                <th>1975</th>
+                                <td>Founded Microsoft with Paul Allen</td>
+                            </tr>
+                            <tr>
+                                <th>1985</th>
+                                <td>Windows is launched</td>
+                            </tr>
+                            <tr>
+                                <th>2000</th>
+                                <td>Founds the Bill and Melinda Foundation with Melinda French</td>
+                            </tr>
+                            <tr>
+                                <th>2001</th>
+                                <td>Microsoft releases the original Xbox</td>
+                            </tr>
+                            <tr>
+                                <th>2006</th>
+                                <td>Gates launches TerraPower, with the idea of producing energy for an affordable price</td>
+                            </tr>
+                            <tr>
+                                <th>2008</th>
+                                <td>Gates leaves his daily job at Microsoft</td>
+                            </tr>
+                            <tr>
+                                <th>2014</th>
+                                <td>Gates steps down as CEO of Microsoft, but remains on the board of directors</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="summary">
+                    <div class="summary-title">
+                        <h3>In a Nutshell...</h3>
+                    </div>
+                    <div class="summary-image">
+                        <img src="Portrait2.jpg" alt="Portrait of Bill Gates">
+                    </div>
+                    <div class="summary-data">
+                        <table>
+                            <tr>
+                                <th>Born</th>
+                                <td>28th October 1955 (aged 66)</td>
+                            </tr>
+                            <tr>
+                                <th>Education</th>
+                                <td>Harvard University (dropped out)</td>
+                            </tr>
+                            <tr>
+                                <th>Occupation</th>
+                                <td>
+                                    <ul>
+                                        <li>Software developer</li>
+                                        <li>Investor</li>
+                                        <li>Entrepeneur</li>
+                                    </ul>   
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Known for</th>
+                                <td>Co-founding Microsoft</td>
+                            </tr>
+                            <tr>
+                                <th>Awards</th>
+                                <td>Presidential Medal of Freedom (2016)</td>
+                            </tr>
+                            <tr>
+                                <th>Parents</th>
+                                <td>Bill Gates Sr. (father),
+                                    Mary Maxwell (mother)
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>Spouses</th>
+                                <td>Melinda French (1994-2021)</td>
+                            </tr>
+                            <tr>
+                                <th>Children</th>
+                                <td>
+                                    <ul>
+                                        <li>Jennifer</li>
+                                        <li>Rory</li>
+                                        <li>Phoebe</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <div class="quote">
+                    <p>Success is a lousy teacher. It seduces smart people into thinking they can't lose. -Bill Gates</p>
+                </div>
+                <div class="read-more">
+                    <p>Read more about Bill Gates <a href="https://www.gatesnotes.com/Bio">here</a>.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
